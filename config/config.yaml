@@ -1,0 +1,15 @@
+random_seed: 42
+use_sample_data: false
+data_paths:
+  sample: "data/sample_fb_ads.csv"
+  full: "data/synthetic_fb_ads_undergarments.csv"
+thresholds:
+  low_ctr: 0.02
+  roas_drop_significant: 0.15
+  confidence_high: 0.8
+  confidence_medium: 0.6
+analysis:
+  lookback_days: 30
+  min_spend_threshold: 100
+model:
+  use_llm: false  
